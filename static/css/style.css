@@ -1,11 +1,27 @@
-footer {
-    background-color : lightgrey;
+h1 {
+    text-align : center;
 }
 
 body {
-    background-color : lightgrey;
+    margin:0;
+    text-align: center;
+    background-color : #293339;
+    color:white;
 }
 
-h1 {
-    text-align : center;
+input[type=submit], button{
+    background-color: #44667C;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    text-indent: 15px;
+    text-align: left;
+    background-color : #3A5769;
 }
